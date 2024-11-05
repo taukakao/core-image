@@ -3,7 +3,7 @@ id: core
 
 stages:
 - id: build
-  base: ghcr.io/vanilla-os/pico:dev
+  base: ghcr.io/taukakao/pico:debian-repos
   singlelayer: false
   labels:
     maintainer: Vanilla OS Contributors
